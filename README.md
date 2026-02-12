@@ -1,13 +1,14 @@
 # REACH-cruise-reports
 A website reporting on data from the USF IMaRS FLARACEP (REACH) research cruises.
 
-# Usage
 
+# Usage
 1. install dependencies
 2. download code
 3. download data into `./data/01_raw/`
 4. run notebooks individually or run all with `quarto render`
 5. (maintainers only) deploy to website with `quarto publish`
+
 
 # Raw Data
 Following a research cruise, raw data is uploaded into [this box.com folder](https://usf.app.box.com/folder/321222942799).
@@ -30,7 +31,7 @@ The following file patterns are expected for the following `DATA_TYPE`s:
     * `{MARINE_TECH_ENTERED_STRING}_Event File_{STATION_ID}_{EVENT_ID}.hdr`
     * `EventReportFile_{EVENT_ID}.txt`
     * `ButtonActivity_{EVENT_ID}.txt`
-  * `{SENSOR_NAME}_{YEAR}{MONTH}{DAY}-{HOUR}{MINUTE}{SECOND}.{Raw | log | xml}` (raw, log, or xml depending on sensor)
+  * `{SENSOR_NAME}_{YEAR}{MONTH}{DAY}-{HOUR}{MINUTE}{SECOND}.(Raw | log | xml)` (raw, log, or xml depending on sensor)
 * `CTD`:
   * `Processed/{STATION_ID}_processed.cnv`
   * `{STATION_ID}.mrk`
