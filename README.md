@@ -1,7 +1,15 @@
 # REACH-cruise-reports
 A website reporting on data from the USF IMaRS FLARACEP (REACH) research cruises.
 
-# Raw Data Inputs
+# Usage
+
+1. install dependencies
+2. download code
+3. download data into `./data/01_raw/`
+4. run notebooks individually or run all with `quarto render`
+5. (maintainers only) deploy to website with `quarto publish`
+
+# Raw Data
 Following a research cruise, raw data is uploaded into [this box.com folder](https://usf.app.box.com/folder/321222942799).
 The directory structure is expected to match the pattern `IMaRS_Projects/FLRACEP V (REACH) project/DataManagement/{CRUISE_ID}/DataCollection/{DATA_TYPE}/`.
 
