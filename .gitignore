@@ -1,3 +1,12 @@
+# quarto files
+/.quarto/
+*_cache/
+*.cache/
+*_files/
+_site/*
+
+*.Rproj
+
 # History files
 .Rhistory
 .Rapp.history
