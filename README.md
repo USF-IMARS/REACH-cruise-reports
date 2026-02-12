@@ -5,7 +5,7 @@ A website reporting on data from the USF IMaRS FLARACEP (REACH) research cruises
 Following a research cruise, raw data is uploaded into [this box.com folder](https://usf.app.box.com/folder/321222942799).
 The directory structure is expected to match the pattern `IMaRS_Projects/FLRACEP V (REACH) project/DataManagement/{CRUISE_ID}/DataCollection/{DATA_TYPE}/`.
 
-The following file patterns are expected for each `DATA_TYPE`:
+The following file patterns are expected for the following `DATA_TYPE`s:
 
 * `FlowThrough`:
   * `{YEAR}_{MONTH}_{MARINE_TECH_ENTERED_STRING}_FT{UNKNOWN_IDENTIFIER}.hdr`
