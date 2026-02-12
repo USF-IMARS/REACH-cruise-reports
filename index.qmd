@@ -2,6 +2,7 @@
 title: "REACH-cruise-reports"
 ---
 
-This is a Quarto website.
+Following a research cruise, raw data is uploaded into [this box.com folder](https://usf.app.box.com/folder/321222942799).
+The data is then processed using notebooks which are rendered by quarto.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+

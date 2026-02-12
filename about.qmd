@@ -2,4 +2,4 @@
 title: "About"
 ---
 
-About this site
+This effort is funded by the Florida RESTORE Act Centers of Excellence Program (FLRACEP).
