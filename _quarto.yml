@@ -8,6 +8,8 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: https://github.com/USF-IMARS/REACH-cruise-reports
+        text: Source Code on GitHub
 
 format:
   html:
@@ -16,6 +18,9 @@ format:
       - brand
     css: styles.css
     toc: true
+    code-fold: true
+    message: false
+    warning: false
 
 
 
