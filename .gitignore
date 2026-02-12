@@ -1,3 +1,6 @@
+# raw data files
+/data/
+
 # quarto files
 /.quarto/
 *_cache/
